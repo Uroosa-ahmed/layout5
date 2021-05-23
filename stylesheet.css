@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.top{
+
+    display: flex;
+    justify-content: space-between;
+    height: 1 0px;
+}
+
+.openbtn{
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    color: #757575;
+    padding: 3px 15px;
+    border: none;
+    display: none;
+    height: 4rem;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 4rem;
+    background-color: purple;
+}
+
+.btn1{
+    width: 10%;
+    height: 2rem;
+    background-color: mistyrose;
+    border: none;
+    margin: 15px;
+    border-radius: 1px;
+}
+
+.btn2{
+    width: 10%;
+    height: 2rem;
+    background-color: mistyrose;
+    border: none;
+    margin: 15px;
+    border-radius: 1px;
+}
+.btn3{
+    width: 10%;
+    height: 2rem;
+    background-color: mistyrose;
+    border: none;
+    margin: 15px;
+    border-radius: 1px;
+}
+.btn4{
+    width: 10%;
+    height: 2rem;
+    background-color: mistyrose;
+    border: none;
+    margin: 15px;
+    border-radius: 1px;
+}
+.Box{
+    width: 90%;
+    background-color: purple;
+    justify-content: center;
+    height: 15rem;
+    margin: 1.3rem auto;
+}
+.box1{
+    width: 50%;
+    background-color: mistyrose;
+    border: none;
+    height: 4rem;
+    margin-top: 5rem;
+    margin-left: 12rem;
+}
+
+.box2{
+    width: 15%;
+    background-color: #ff0040;
+    border: none;
+    height: 4rem;
+    margin-top: 6rem;
+    
+
+}
+.BOX1{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1.3rem auto;
+
+
+}
+.box3, .box4, .box5{
+    width: 32%;
+    height: 15rem;
+    background-color: lightblue;
+
+
+}
+
+.BOX2, .BOX3, .BOX4, .BOX5, .BOX7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1.3rem auto;
+    height: 1rem;
+ 
+
+}
+
+.BOX6{
+    width: 90%;
+    height: 15rem;
+    background-color:#ff0040;
+    margin: 1.3rem auto;
+
+
+}
+
+.box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16, .box17{
+    width: 32%;
+    height: 1rem;
+    background-color: #757575;
+}
+
+.box18, .box19{
+    width: 100%;
+    height: 1rem;
+    background-color: #757575;
+}
+
+
+
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1.3rem auto;
+}
+
+
+
+@media (max-width: 1024px) (max-width: 1024px) {
+    .box1, .box2{
+        display: none;
+    }
+ .last{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        margin: 1.3rem auto;
+    }
+    
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .top{
+
+        display: flex;
+        justify-content: space-between;
+        height: 1 0px;
+    }
+
+    .box1, .box2{
+        display: none;
+    }
+    .Box{
+        width: 90%;
+        background-color: purple;
+        justify-content: center;
+        height: 15rem;
+        margin: 1.3rem auto;
+    }
+    
+    .box1{
+        width: 50%;
+        background-color: mistyrose;
+        border: none;
+        height: 4rem;
+        margin-top: 5rem;
+        margin-left: 12rem;
+    }
+    
+    .box2{
+        width: 15%;
+        background-color: #ff0040;
+        border: none;
+        height: 4rem;
+        margin-top: 6rem;
+        
+    
+    }
+    .box3, .box4, .box5{
+        width: 32%;
+        height: 15rem;
+        background-color: lightblue;
+    
+    
+    }
+
+    .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16, .box17{
+        width: 32%;
+        height: 1rem;
+        background-color: #757575;
+    }
+    
+    .box18, .box19{
+        width: 100%;
+        height: 1rem;
+        background-color: #757575;
+    }
+
+    .last{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        margin: 1.3rem auto;
+    }
+    
+}
