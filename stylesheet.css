@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 10,3px;
     box-sizing: border-box;
 }
 
@@ -153,10 +153,8 @@
 
 
 
-@media (max-width: 1024px) (max-width: 1024px) {
-    .box1, .box2{
-        display: none;
-    }
+@media (min-width: 100px) and (max-width: 767px)  {
+    
  .last{
         display: flex;
         flex-direction: row;
@@ -165,17 +163,42 @@
         margin: 1.3rem auto;
     }
     
+.btn1,.btn2,.btn3,.btn4{
+    display: none;
+}
+
+.box3, .box4, .box5{
+    width: 32%;
+    height: 10rem;
+    background-color: lightblue;
 
 
 }
+.Box{
+    width: 90%;
+    background-color: purple;
+    justify-content: center;
+    height: 10rem;
+    margin: 1.3rem auto;
 
-@media (min-width: 320px) and (max-width: 480px){
+}
+.box1, .box2{
+    display: none;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
     .top{
 
         display: flex;
         justify-content: space-between;
         height: 1 0px;
     }
+    .btn1,.btn2,.btn3,.btn4{
+        display: none;
+    }
+    
 
     .box1, .box2{
         display: none;
